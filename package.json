@@ -1,0 +1,26 @@
+{
+  "name": "blackground",
+  "version": "1.0.0",
+  "description": "display black color",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:mac": "electron-builder --mac --x64 --dir",
+    "build:win": "electron-builder --win --x64 --dir",
+    "build:linux": "electron-builder --linux --x64 --dir"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "net.moriya-tech.blackground",
+    "productName": "blackground",
+    "files": [
+      "src"
+    ]
+  }
+}
